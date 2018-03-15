@@ -1,0 +1,24 @@
+{
+	"certificates" :
+	{
+					"local" : "flb.cer" // your local Cert here 
+	},
+	
+	"credentials":
+	{
+				"login": "",
+				"password":"",
+				"unzip":""
+	},
+
+	"links" :
+	{
+			"checkVersion": "https://epfws.usps.gov/ws/resources/epf/version",
+			"login": "https://epfws.usps.gov/ws/resources/epf/login",
+			"logout": "https://epfws.usps.gov/ws/resources/epf/logout",
+			"listFiles":"https://epfws.usps.gov/ws/resources/download/dnldlist",
+			"download":"https://epfws.usps.gov/ws/resources/download/epf",
+			"status":"https://epfws.usps.gov/ws/resources/download/status"
+	}
+
+}

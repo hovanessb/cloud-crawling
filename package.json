@@ -1,0 +1,25 @@
+{
+  "name": "cloud-crawler",
+  "version": "1.0.0",
+  "description": "This is the App to crawl specific sites",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hovanessb/cloud-crawling"
+  },
+  "keywords": [
+    "crawl",
+    "nodejs",
+    "REST"
+  ],
+  "author": "Hovaness Bartamian",
+  "dependencies": {
+    "config": "^1.29.4",
+    "request": "^2.71.0",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {}
+}
